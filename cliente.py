@@ -13,7 +13,7 @@ def inicializar_cliente():
             if mensaje == '':
                 print('Mensaje vacío. Intente nuevamente.')
                 continue
-            if mensaje.lower() in ('éxito', 'exito'):
+            if mensaje.lower() =='éxito':
                 break
             cliente.sendall(mensaje.encode())
             respuesta = cliente.recv(1024).decode()

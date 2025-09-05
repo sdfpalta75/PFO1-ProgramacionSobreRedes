@@ -1,0 +1,7 @@
+# Archivos de base de datos
+eventos.db
+
+# Directorios y archivos de Python
+__pycache__/
+
+<!-- end list -->
